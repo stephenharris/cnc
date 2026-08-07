@@ -1,0 +1,69 @@
+; Rip cut with outside bottom edge at y=0
+; Origin: bottom-left corner of the board (0,0)
+; Cut from X = -5 to X = 225 (5 mm overrun at each end)
+; 1/8" (3.175 mm) end mill
+; Depth 11.8 mm
+; 0.7 mm stepdowns
+; Y = 3.175 mm/2 = 1.5875
+G21
+G90
+G17
+G94
+
+G0 Z10.0
+
+G0 X-5.0 Y1.5875
+
+G1 Z-0.7 F200
+G1 X225.0 F800
+
+G1 Z-1.4 F200
+G1 X-5.0 F800
+
+G1 Z-2.1 F200
+G1 X225.0 F800
+
+G1 Z-2.8 F200
+G1 X-5.0 F800
+
+G1 Z-3.5 F200
+G1 X225.0 F800
+
+G1 Z-4.2 F200
+G1 X-5.0 F800
+
+G1 Z-4.9 F200
+G1 X225.0 F800
+
+G1 Z-5.6 F200
+G1 X-5.0 F800
+
+G1 Z-6.3 F200
+G1 X225.0 F800
+
+G1 Z-7.0 F200
+G1 X-5.0 F800
+
+G1 Z-7.7 F200
+G1 X225.0 F800
+
+G1 Z-8.4 F200
+G1 X-5.0 F800
+
+G1 Z-9.1 F200
+G1 X225.0 F800
+
+G1 Z-9.8 F200
+G1 X-5.0 F800
+
+G1 Z-10.5 F200
+G1 X225.0 F800
+
+G1 Z-11.2 F200
+G1 X-5.0 F800
+
+G1 Z-11.8 F200
+G1 X225.0 F800
+
+G0 Z10.0
+
