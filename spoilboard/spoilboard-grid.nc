@@ -1,3 +1,9 @@
+; Spoilerboard Grid
+;
+; Material: 300mm x 200mm x 11.1mm
+; Zero: bottom left
+; Bit: 20 degree bit
+
 G21
 G90
 G1 Z3.810 F228.6

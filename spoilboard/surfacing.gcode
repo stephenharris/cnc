@@ -1,4 +1,5 @@
 ; Spoilboard surfacing – start at home, plunge off board, serpentine
+; Set work-zero to machine-zero
 ; Tool: 24mm surfacing bit
 ; Depth: 0.2mm
 ; Feed: 1500 mm/min
